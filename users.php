@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/includes/functions.php';need_role(['admin_utama']);go('admin-utama/pengguna.php');

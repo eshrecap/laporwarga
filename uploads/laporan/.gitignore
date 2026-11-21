@@ -1,0 +1,21 @@
+
+# Database dan data lokal
+database/*.sql
+
+# Foto laporan pengguna
+uploads/laporan/*
+
+# File konfigurasi lokal
+.env
+.env.*
+
+# File cadangan
+*.zip
+
+# File sistem Mac
+.DS_Store
+__MACOSX/
+
+# Dependency lokal
+vendor/
+node_modules/

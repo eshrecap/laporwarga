@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/includes/functions.php';need_role(['masyarakat']);go('masyarakat/buat_laporan.php');

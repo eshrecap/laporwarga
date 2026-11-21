@@ -1,0 +1,1 @@
+<?php footer_page();

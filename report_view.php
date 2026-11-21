@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/includes/functions.php';need_login();if(me()['role']==='masyarakat')go('masyarakat/detail_laporan.php?id='.(int)($_GET['id']??0));if(me()['role']==='petugas')go('petugas/detail_laporan.php?id='.(int)($_GET['id']??0));http_response_code(403);exit('Akses ditolak.');

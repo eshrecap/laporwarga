@@ -1,0 +1,4 @@
+/* Penyesuaian khusus komponen dashboard; warna mengikuti CSS variables style.css. */
+.grid2 canvas{width:100%;max-height:320px}.cards a.card{color:var(--text);font-weight:700;transition:transform .15s ease,border-color .15s ease}.cards a.card:hover{transform:translateY(-2px);border-color:var(--primary);text-decoration:none}.stats .stat{min-height:100px}
+
+.pagination{display:flex;gap:.4rem;flex-wrap:wrap;margin:1rem 0}.pagination a,.pagination span{padding:.45rem .75rem;border:1px solid var(--border,#dce3ec);border-radius:.5rem;text-decoration:none}.pagination .current{font-weight:700;background:var(--primary,#2457d6);color:#fff}.row-between{display:flex;justify-content:space-between;align-items:center;gap:1rem}.inline{display:inline}
